@@ -1,0 +1,7 @@
+import numpy as np
+import pandas as pd
+pd.read_csv('https://drive.google.com/file/d/1Qh_ZMTG4cFzjmiMTHAJBk1EnKqWMv5M6/view?usp=drive_link', delimiter=",")
+baza = pd.read_csv('https://drive.google.com/file/d/1Qh_ZMTG4cFzjmiMTHAJBk1EnKqWMv5M6/view?usp=drive_link', delimiter=",")
+print(baza.head(0))
+print(baza.info())
+print(baza.describe())
